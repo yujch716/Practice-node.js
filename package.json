@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yujch716/nodejs_practice/issues"
   },
-  "homepage": "https://github.com/yujch716/nodejs_practice#readme"
+  "homepage": "https://github.com/yujch716/nodejs_practice#readme",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
