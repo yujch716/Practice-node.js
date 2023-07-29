@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3100
+app.use(express.static('public')); //정적인 화면 출력
 
 app.get('/', (req, res) => {
     res.send('Home page!')
